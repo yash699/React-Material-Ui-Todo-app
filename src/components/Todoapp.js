@@ -97,7 +97,8 @@ export default function Todoapp()
         }
 
         {
-          todos.length<=0 ?(<div>No Record Found</div>):null
+          todos.length<=0 ?(<Card className={classes.root}>
+            <CardContent><div>Oops....No Record Found !</div> </CardContent></Card>):null
         }
 
         </ul>
