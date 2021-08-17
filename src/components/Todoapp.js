@@ -12,7 +12,10 @@ const useStyles = makeStyles((theme) => ({
   listUl:{
     listStyle: 'none',
     fontSize: '20px',
-    width:'400px'
+    width:'420px',
+    height:'450px',
+    overflowY:'auto',
+    paddingRight:'10px'
   }
   ,listLi:
   {
@@ -21,10 +24,15 @@ const useStyles = makeStyles((theme) => ({
   ,cardActionClass:{
     justifyContent:'flex-end',
     marginTop:'-3.3rem'
+  
   },
+ 
+  
   listBar:{
     display:'flex',
-    justifyContent:'center'
+    justifyContent:'center',
+   
+
   }
 }));
 
